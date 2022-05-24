@@ -1,0 +1,123 @@
+.Main {
+    background-color: #FE5D20;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    flex-direction:column;
+    height: 150px 
+
+}
+.child {
+    color: #8071D0;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}
+.logo {
+    height: 130px;
+}
+.child:hover {
+     background-color: #ffffff; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sub-nav {
+    display: flex;
+    margin: 100px;
+}
+.login-1 {
+    display: flex;
+    height: 30px;
+    width: 100px;
+    margin: 100px;
+    background-color: pink;
+    color: #A389CC;
+    border: 1px solid pink;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.new {
+      margin: 30px;
+     flex-direction: column;
+     width: 30%;
+     height: 20%;
+     justify-content: space-between;
+    
+}
+.pic {
+    float: right;
+}
+.new-account {
+    background-color: #5243C0;
+    color: #ffffff;
+    border: 1px solid #5243C0;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.work {
+    padding: 20px;
+}
+.U1 {
+    background-color: #FFD8DB;
+     width: 20px;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 25px; 
+}
+
+.user-1 {
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+    margin: 20px;
+    width: 30%;
+    background-color: #FED7DA;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
+}
+.user-2 {
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+    margin: 20px;
+    width: 30%;
+    background-color: #FD6534;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
+    
+}
+.user-3 {
+        display:flex;
+        justify-content: space-between;
+        flex-direction:row;
+        margin: 20px;
+        width: 30%;
+        background-color: #9ED095;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px grey;
+}
+.user-4 {
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+    margin: 20px;
+    width: 30%;
+    background-color: #FFE4A0;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
+}
+.heading {
+    font-size: 70px;
+}
+.date {
+    margin-top: 25px
+}
+.user-1pink:hover {
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
